@@ -1,0 +1,27 @@
+.faq-section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.faq-heading {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.question {
+    color: white;
+}
+.card-faq {
+    background-color: #373737;
+    color: #FFFFFF;
+    margin-top: 0.5rem;
+}
+.question:hover {
+    color: #dddddd;
+}
+.faq-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}

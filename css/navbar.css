@@ -1,0 +1,14 @@
+.navbarItems{
+    margin-left: 51%;
+}
+
+@media only screen and (min-width: 1200px) {
+    .navbarItems{
+        margin-left: 60%;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .navbarItems{
+        margin-left: 80%;
+    }
+}

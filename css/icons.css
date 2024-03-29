@@ -1,0 +1,32 @@
+.logo-staff {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.image {
+    width: 118px;
+    height: 118px;
+}
+@media only screen and (max-width: 800px) {
+    .icons {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    .image {
+        width: 118px;
+        height: 118px;
+    }
+}
